@@ -26,12 +26,12 @@ const EditCategories = () => {
                 }
             })
             .then(data => {
-                console.log(data); // Maneja la respuesta exitosa aquí
+                console.log(data); 
             })
             .catch(error => {
-                console.error(error); // Maneja los errores aquí
+                console.error(error);
             });
-            navigate('/')
+            navigate('/categorias')
     };
 
     const almacenarDatos = (data) => {

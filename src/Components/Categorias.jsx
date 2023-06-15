@@ -39,7 +39,7 @@ const Categorias = () => {
     }
     return (
         <div>
-
+            <span className="material-symbols-outlined" onClick={()=>navigate('/addCategorias')}>add_circle</span>
             <table className="table table-striped-columns">
                 <thead>
                     <tr>

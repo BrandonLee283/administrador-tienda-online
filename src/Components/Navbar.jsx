@@ -12,17 +12,11 @@ const Navbar = () => {
                 <ul>
                     <li><NavLink to={`/`}>Inicio</NavLink></li>
                     <li><NavLink to={`/categorias`}>Categorias</NavLink></li>
-                    <li><NavLink to={`/`}>Productos</NavLink></li>
+                    <li><NavLink to={`/productos`}>Productos</NavLink></li>
 
                 </ul>
             </div>
-            <div className="navbar-right">
-                <ul>
-                    <li className="navbar-shopping-cart" >
-                        <img src="assets/icons/icon_shopping_cart.svg" alt="shopping-cart" />
-                    </li>
-                </ul>
-            </div>
+
         </nav>
     )
 }
