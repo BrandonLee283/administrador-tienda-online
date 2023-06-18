@@ -16,7 +16,7 @@ function App() {
         <Navbar></Navbar>
 
         <Routes>
-          <Route path='/' element={<Bienvenida></Bienvenida>} />
+          <Route path='/bienvenida' element={<Bienvenida></Bienvenida>} />
           <Route path='/categorias' element={<Categorias></Categorias>} />
           <Route path='/categorias/:id' element={<EditCategories></EditCategories>} />
           <Route path='/productos' element={<Productos></Productos>} />
